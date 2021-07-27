@@ -1,0 +1,71 @@
+/*Fuentes*/
+
+@font-face {
+    font-family: 'miFuente';
+    src: url(../fonts/bubble_love/Bubble\ Love\ Demo.otf);
+}
+
+body {
+    background-color: #c9f8ff;
+}
+
+.margen {
+    margin: 10px;
+    padding: 5px;
+}
+
+.fondo {
+    background-image: url(../img/img-menu/fondo-cielo-y-cesped-infantil.jpg);
+    background-size: cover;
+}
+
+.seccion1 {
+    border: 1px solid red;
+}
+
+.centrarContenido {
+    text-align: center;
+    font-family: 'miFuente';
+    color: purple;
+}
+
+footer {
+    background-color: rgb(33, 37, 32);
+    padding: 25px;
+    color: white
+}
+
+a {
+    font-size: 20px;
+    text-decoration: none;
+    color: rgb(15, 202, 15)
+}
+
+a:hover {
+    color: yellow
+}
+
+.float {
+    position: fixed;
+    width: 60px;
+    height: 60px;
+    bottom: 40px;
+    right: 40px;
+    background-color: #25d366;
+    color: #FFF;
+    border-radius: 50px;
+    text-align: center;
+    font-size: 30px;
+    box-shadow: 2px 2px 3px #999;
+    z-index: 100;
+}
+
+.float:hover {
+    text-decoration: none;
+    color: #25d366;
+    background-color: #fff;
+}
+
+.my-float {
+    margin-top: 16px;
+}
